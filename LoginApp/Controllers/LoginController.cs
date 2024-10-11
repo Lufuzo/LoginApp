@@ -43,7 +43,7 @@ namespace LoginApp.Controllers
             {
                 // Call the LoginMethod from the service
                 var login = _loginService.LoginMethod(model.Username, model.Password);
-
+                //
                 // Check if login is successful and redirect accordingly
                 if (login != null)
                 {
